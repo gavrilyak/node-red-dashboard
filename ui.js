@@ -87,7 +87,7 @@ function add(opt) {
         opt.emitOnlyNewValues = true;
     }
     if (typeof opt.forwardInputMessages === 'undefined') {
-        opt.forwardInputMessages = true;
+        opt.forwardInputMessages = false;
     }
     if (typeof opt.storeFrontEndInputAsState === 'undefined') {
         opt.storeFrontEndInputAsState = true;
